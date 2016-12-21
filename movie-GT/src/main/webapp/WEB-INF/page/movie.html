@@ -12,7 +12,7 @@
                var bgVal='';
                $(window).scroll(function(event){
                     winPos = $(window).scrollTop();
-                    bgVal = 'rgba(248, 154, 13,+'+winPos/100+')';
+                    bgVal = 'rgba(0, 0, 0,+'+winPos/100+')';
                     $(".nav").css("background-color",bgVal);
                     if(winPos<=110){
                         $(".line").css("width",winPos+"%");
@@ -40,8 +40,45 @@
         </div>
         
         
-        <div class="content">
+        <div class="movie-content">
+           <div class="movie-up">
+                <div class="movie-left">
+                    <img src="img/movie_1.jpg" height="380">
+                </div>
+                <div class="movie-mid">
+                    <ul>
+                        <li class="movie-title">幽冥 Spectral (2016)</li>
+                        <li>导演: 尼克·马蒂厄</li>
+                        <li>编剧: 伊恩·弗里德 / 尼克·马蒂厄 / 乔治·诺非</li>
+                        <li>主演: 克莱恩·克劳福德 / 艾米莉·莫迪默 / 詹姆斯·戴尔 / 马克斯·马蒂尼 / 布鲁斯·格林伍德 / 更多...</li>
+                        <li>类型: 动作 / 科幻</li>
+                        <li>制片国家/地区: 美国</li>
+                        <li>语言: 英语</li>
+                        <li>上映日期: 2016-12-09(美国)</li>
+                        <li>片长: 107分钟</li>
+                    </ul>
+                </div>
+                
+                <div class="movie-right">
+                    <div>特惠价格：48元/张</div>
+                    <div>影票剩余：300张</div>
+                    <div><a href="#">立即抢购</a></div>
+                </div>
+            </div>
             
+            <div class="movie-down">
+                <div>
+                    <h2>幽冥剧情介绍</h2>
+                    <P>
+                        讲述了一个美国国防部高级研究计划局科学家接受一项致命任务，带领一队精挑细选的三角洲部队士兵进驻一个被战争摧毁的城市，这里游荡着被称为“幽冥”的神秘幽灵，它们无形无色，能在不经意间造成大规模的伤亡。
+                    </P>
+                     <h2>幽冥剧照</h2>
+                    <img src="img/movie_1_1.jpg">
+                    <img src="img/movie_1_2.jpg">
+                    <img src="img/movie_1_3.jpg">
+                                    
+                </div>
+            </div>
         </div>
     
         <div class="footer">

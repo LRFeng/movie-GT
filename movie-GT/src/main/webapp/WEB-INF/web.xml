@@ -10,6 +10,7 @@
     <param-value>
 		    classpath:configuration/spring.xml;
 			classpath:configuration/spring-mvc.xml;
+			classpath:configuration/spring-datanucleus.xml;
 	</param-value>
 
   </context-param>

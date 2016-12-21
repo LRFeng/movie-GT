@@ -3,6 +3,7 @@ body{
     /*background-color: rgba(248, 154, 13,1);*/
     background-color: rgba(0, 0, 0,1);
     color: white;
+    min-width: 1349px;
 }
 
 ul{
@@ -65,7 +66,7 @@ li{
     height: 200px;
     width: 31.1%;
     margin: 10px 1%;
-    background-color: rgba(0,0,0,0.09);
+    background-color: rgba(255,255,255,0.2);
 }
 
 .movie-img{
@@ -96,12 +97,92 @@ li{
    padding: 10px 15px;
    text-decoration: none;
    color: white;
-   background-color: rgba(255, 5, 5, 0.68);
+   background-color: rgba(248, 163, 13, 1);
 }
 
+
+.movie-content{
+    width: 80%;
+    margin: 80px 10% 10px 10%;
+    float: left;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.movie-content div{
+    float: left;
+}
+
+.movie-up{
+    width: 100%;
+    height: 400px;
+}
+
+.movie-left{
+    width: 30%;
+    height: 400px;
+}
+
+.movie-mid{
+    width: 50%;
+    height: 400px;
+}
+
+.movie-right{
+    width: 20%;
+    margin-top: 200px;
+    height: 200px;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.movie-left img{
+    display: block;
+    margin: 10px auto;
+}
+
+.movie-mid li{
+    margin:10px 0px 0px 10px;
+    font-weight: 600;
+}
+
+.movie-right div{
+    width: 100%;
+}
+
+.movie-right div a{
+   display: block;
+   margin: 1px 10px 10px 0px;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   background-color: rgba(248, 163, 13, 1); 
+}
+
+.movie-down{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.movie-down p{
+    text-indent:2em;
+    font-weight: 600;
+    line-height: 30px;
+    padding-right: 40px;
+}
+
+.movie-down img{
+   display: block;
+   margin: 20px 20%;
+}
+
+
+
 .footer{
+    float: left;
+    width: 100%;
     border-top: 1px solid white;
-    margin: 0 auto;
+    margin: 0px auto;
     height: 50px;
     font-size: 1.2em;
     font-weight: 500;

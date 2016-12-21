@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <!-- Movie "unit" -->
+    <persistence-unit name="Movie">
+        <class>com.aring.bean.Movie</class>
+        <class>com.aring.bean.BasicInfo</class>
+        <exclude-unlisted-classes/>
+
+        <properties>
+            <!-- ENABLE THESE FOR MySQL/MariaDB -->
+            <!-- Change the "nucleus" to your database name, and the user/password -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://123.207.246.80:3306/movie_GT?characterEncoding=utf-8"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.user" value="movie" />
+            <property name="javax.persistence.jdbc.password" value="movie"/>
+            <property name="datanucleus.connectionPoolingType" value="tomcat"/>
+            <property name="datanucleus.schema.autoCreateAll" value="true"/>
+        </properties> 
+    </persistence-unit>
+
+</persistence>
