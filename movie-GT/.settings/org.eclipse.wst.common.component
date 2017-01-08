@@ -3,6 +3,9 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resource"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="weibo4j-oauth2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/weibo4j-oauth2/weibo4j-oauth2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="movie-GT"/>
         <property name="java-output-path" value="/movie-GT/target/classes"/>
     </wb-module>

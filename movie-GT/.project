@@ -3,6 +3,7 @@
 	<name>movie-GT</name>
 	<comment></comment>
 	<projects>
+		<project>weibo4j-oauth2</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

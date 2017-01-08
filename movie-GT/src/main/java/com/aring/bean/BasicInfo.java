@@ -2,6 +2,9 @@ package com.aring.bean;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 /**
@@ -13,26 +16,38 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class BasicInfo {
 	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	Integer id;
+	
 	/**电影名*/
 	@Basic
-	private String name;
+	String name;
 	
 	/**电影海报路径*/
 	@Basic
-	private String path; 
+	String path; 
 
 	/**上映日期*/
 	@Basic
 	@Column(name="release_date")
-	private String releaseDate;
+	String releaseDate;
 	
 	/**影票价格*/
 	@Basic
-	private Float price;
+	Float price;
 	
 	/**影票数量*/
 	@Basic
-	private Integer number;
+	Integer number;
+	
+	public Integer getId() {
+		return id;
+	}
+	
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public String getName() {
 		return name;
@@ -76,7 +91,8 @@ public class BasicInfo {
 
 	@Override
 	public String toString() {
-		return "BasicInfo [name=" + name + ", path=" + path + ", releaseDate=" + releaseDate + ", price="
+		return "BasicInfo [id=" + id + ", name=" + name + ", path=" + path + ", releaseDate=" + releaseDate + ", price="
 				+ price + ", number=" + number + "]";
 	}
+	
 }

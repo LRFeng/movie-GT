@@ -7,6 +7,7 @@
     <persistence-unit name="Movie">
         <class>com.aring.bean.Movie</class>
         <class>com.aring.bean.BasicInfo</class>
+        <class>com.aring.bean.MUser</class>
         <exclude-unlisted-classes/>
 
         <properties>

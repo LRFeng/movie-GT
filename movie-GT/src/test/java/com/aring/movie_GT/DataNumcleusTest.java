@@ -4,9 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import javax.persistence.PersistenceUnit;
 
-import org.datanucleus.api.jpa.PersistenceProviderImpl;
 import org.junit.Test;
 
 import com.aring.bean.BasicInfo;
@@ -25,7 +23,6 @@ public class DataNumcleusTest {
 		try{
 			ts.begin();
 			Movie movie = new Movie();
-			movie.setId(0);
 			movie.setName("你的名字");
 			movie.setDirector("新城武");
 			manager.persist(movie);

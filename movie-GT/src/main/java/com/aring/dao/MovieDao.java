@@ -1,5 +1,7 @@
 package com.aring.dao;
 
+import java.util.List;
+
 import com.aring.bean.Movie;
 
 public interface MovieDao {
@@ -8,5 +10,8 @@ public interface MovieDao {
 	
 	public void save(Movie movie);
 	
+	public List<Movie> queryAll();
+	
+	public Movie update(Movie movie);
 	
 }

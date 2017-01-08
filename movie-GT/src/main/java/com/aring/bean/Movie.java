@@ -2,10 +2,9 @@ package com.aring.bean;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
+
+import org.datanucleus.api.jpa.annotations.JdbcType;
 
 /**
  * 电影信息
@@ -13,13 +12,9 @@ import javax.persistence.Table;
  *
  */
 
-@Entity	
+@Entity(name="movie")
 @Table(name="movie",schema="movie_GT")
 public class Movie extends BasicInfo{
-	
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer id;
 	
 	@Basic
 	private String director;
@@ -36,15 +31,8 @@ public class Movie extends BasicInfo{
 	@Basic
 	private String time;
 	@Basic
+	@JdbcType("LONGVARCHAR")
 	private String introduction;
-	
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
 	
 	public String getDirector() {
 		return director;
@@ -94,12 +82,12 @@ public class Movie extends BasicInfo{
 	public void setIntroduction(String introduction) {
 		this.introduction = introduction;
 	}
-
 	@Override
 	public String toString() {
-		return "Movie [id=" + id + ", director=" + director + ", scriptwriter=" + scriptwriter + ", starring="
-				+ starring + ", type=" + type + ", from=" + from + ", language=" + language + ", time=" + time
-				+ ", introduction=" + introduction + "]";
+		return "Movie [director=" + director + ", scriptwriter=" + scriptwriter + ", starring=" + starring + ", type="
+				+ type + ", from=" + from + ", language=" + language + ", time=" + time + ", introduction="
+				+ introduction + ", id=" + id + ", name=" + name + ", path=" + path + ", releaseDate=" + releaseDate
+				+ ", price=" + price + ", number=" + number + "]";
 	}
 	
 	

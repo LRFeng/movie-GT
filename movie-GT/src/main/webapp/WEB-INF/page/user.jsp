@@ -5,7 +5,6 @@
 <html lang="zh_CN" xmlns:wb="http://open.weibo.com/wb">
     <head>
         <title>movie-GT</title>
-        <meta property="wb:webmaster" content="4b18a638b7db3fcc" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" href="./static/css/main.css" type="text/css">
         <script src="./static/js/jquery.min.js" type="text/javascript"></script>
@@ -40,11 +39,11 @@
                     <c:choose>
                     	<c:when test="${not empty user}">
 							<li>
-							    <a href="user" style="text-decoration: none;color:#F8A30D;height: 60px;">${user.name}</a>
+							    <a href="#" style="text-decoration: none;color:#F8A30D;height: 60px;">${user.name}</a>
 							    <img alt="" src="${user.profileImageUrl}">
 								<a href="login-out" style="text-decoration: none;color:#FFFFFF; font-size: 14px;">退出登陆</a>
 							</li>
-                    	</c:when> 
+                    	</c:when>
                     	<c:otherwise>
                     		<li><a href="#" title="QQ登陆"><img src="./static/img/qq_icon.png"></a></li>
                     		<li><a href="weibo-auth-login" title="新浪微博登陆"><img src="./static/img/weibo_icon.png"></a></li>
@@ -55,29 +54,39 @@
             <div class="line"></div>
         </div>
         
-        
-        <div class="content">
-            <c:forEach var="movie" items="${basicInfos}">
-            	<div class="content-div">
-                	<div class="movie-img">
-                    	<img src="${movie.path}" height="200">
-                    </div>
-                    <div class="movie-desc">
-                        <ul>
-                           <li class="movie-title">${movie.name}</li>
-                           <li>上映日期: ${movie.releaseDate}</li>
-                           <li>特惠价格：${movie.price}元/张</li>
-                           <li>影票剩余：${movie.number}张</li>
-                           <li class="movie-GT"><a href="movie?id=${movie.id}">立即抢购</a></li>
-                         </ul>
-                     </div>
-            	</div>
-            </c:forEach>   
+        <div class="user-content">
+        	 <form  action="save-user" method="post" onsubmit="return check()">
+        	 	<div>完善个人信息</div>
+        	 	<div><span>昵称：</span><span>${user.name}</span></div>
+        	 	<div><span>邮箱：</span><input id="email" name="email" value="${user.email}" type="text" style="width: 300px; height: 25px; font-size: 1em;"><span>*</span></div>
+        	 	<div><button type="submit" style="margin: 0px 100px; display: block; background-color: #F8A30D;padding: 15px 30px; border: none; font-size: 18px;color: white;">提交</button></div>
+        	 </form>
         </div>
     
         <div class="footer">
             Copyright © 2016-12-17 中信信用卡 aring Email：aringlai@163.com
         </div>
+        
+        
+        <script type="text/javascript">
+        	function check() {
+        		var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        		var email = $("#email").val();
+				if(email == null || email==''){
+        			alert("邮箱不能为空");
+        			return false;
+        		}else if(!filter.test(email)){
+        			alert("邮箱无效");
+        			return false;
+        		}else{
+        			return true;
+        		}
+        	}
+        	
+        </script>
+        
+        
+        
     </body>
 
 </html>

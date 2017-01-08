@@ -53,15 +53,11 @@ li{
 
 .content{
     margin-top: 65px;
-    
-}
-
-.content table{
-    width: 100%;
+    min-height: 500px;
 }
 
 
-.content td{
+.content-div{
     float: left;
     height: 200px;
     width: 31.1%;
@@ -176,7 +172,20 @@ li{
    margin: 20px 20%;
 }
 
+.user-content{
+	min-height: 450px;
+	width: 80%;
+	font-size:1.5em;
+    font-weight: 600;
+	margin: 80px auto 20px auto;
+	background-color: rgba(255,255,255,0.5);
+	padding-top:20px;
+}
 
+.user-content div{
+	width: 60%;
+	margin: 20px auto 0px auto;
+}
 
 .footer{
     float: left;
@@ -190,3 +199,25 @@ li{
     line-height: 50px;
 }
 
+.pop-div{
+	width:40%;
+	margin:0px 30%;
+	min-height:80px;
+	background-color:rgb(248, 163, 13);
+	position: fixed;
+	top: 50%;
+	color:white;
+	font-weight:700;
+	font-size:1.5em;
+	text-align: center;
+}
+
+.pop-div span, .pop-div input{
+	line-height: 80px;
+}
+
+.pop-div input{
+	height: 35px;
+	width: 350px;
+	font-size:1em;
+}
