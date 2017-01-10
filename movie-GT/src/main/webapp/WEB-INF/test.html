@@ -21,15 +21,29 @@
     
 </head> 
 <body> 
-        
+
     <div class="test">
         
         <div>
-            xxx
+            <button onclick="test()">test</button>
         </div>
     
     </div>
     
-    
+    <script type="text/javascript">
+    	var i = 0;
+    	function test() {
+    		var timer = setInterval( 
+    		function test2() {
+    			console.log(i++);
+    			if(i==4){
+    				clearInterval(timer);
+    			}
+    		},3000);
+		}
+        
+    	
+    	
+        </script>
 </body> 
 </html> 

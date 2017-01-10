@@ -8,6 +8,7 @@
         <class>com.aring.bean.Movie</class>
         <class>com.aring.bean.BasicInfo</class>
         <class>com.aring.bean.MUser</class>
+        <class>com.aring.bean.MOrder</class>
         <exclude-unlisted-classes/>
 
         <properties>

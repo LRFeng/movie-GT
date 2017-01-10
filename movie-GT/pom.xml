@@ -198,7 +198,18 @@
 </dependency>
 <!-- ———————————————————————————— end ———————————————————————— -->
 
+
+<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-redis</artifactId>
+    <version>1.7.6.RELEASE</version>
+</dependency>
+
+
   </dependencies>
   
-  
+
+
+
 </project>

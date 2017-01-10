@@ -72,6 +72,12 @@ public class MUser {
 	public void setQqAccessToken(String qqAccessToken) {
 		this.qqAccessToken = qqAccessToken;
 	}
+
+	@Override
+	public String toString() {
+		return "MUser [id=" + id + ", name=" + name + ", profileImageUrl=" + profileImageUrl + ", email=" + email
+				+ ", weiboAccessToken=" + weiboAccessToken + ", qqAccessToken=" + qqAccessToken + "]";
+	}
 	
 	
 	

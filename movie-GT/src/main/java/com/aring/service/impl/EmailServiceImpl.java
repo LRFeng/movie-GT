@@ -2,8 +2,6 @@ package com.aring.service.impl;
 
 import java.util.Date;
 import java.util.Properties;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 import javax.mail.Authenticator;
 import javax.mail.Message;
@@ -23,31 +21,20 @@ import com.aring.service.EmailService;
 @Service
 public class EmailServiceImpl implements EmailService{
 	
-	private static ExecutorService executorService = Executors.newFixedThreadPool(10);
 
 	public void send(String receEmail,String title,String context) throws Exception{
-		Runnable task = new Runnable() {
-			@Override
-			public void run() {
-				try{
-					Properties properties = new Properties();
-					properties.put("mail.smtp.auth", "true");
-					properties.put("mail.smtp.host", "smtp.2980.com");
-					properties.put("mail.transport.protocol", "SMTP");
-					Session session = Session.getInstance(properties,authenticator);
-					Message message = new MimeMessage(session);
-					message.setFrom(new InternetAddress(SENDER_ADDRESS));
-					message.setRecipient(RecipientType.TO, new InternetAddress(receEmail));	
-					message.setSubject(title);
-			        message.setSentDate(new Date());
-			        message.setContent(context,"text/html;charset=utf-8");
-			        Transport.send(message);
-				}catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		};
-		executorService.execute(task);
+		Properties properties = new Properties();
+		properties.put("mail.smtp.auth", "true");
+		properties.put("mail.smtp.host", "smtp.2980.com");
+		properties.put("mail.transport.protocol", "SMTP");
+		Session session = Session.getInstance(properties,authenticator);
+		Message message = new MimeMessage(session);
+		message.setFrom(new InternetAddress(SENDER_ADDRESS));
+		message.setRecipient(RecipientType.TO, new InternetAddress(receEmail));	
+		message.setSubject(title);
+        message.setSentDate(new Date());
+        message.setContent(context,"text/html;charset=utf-8");
+        Transport.send(message);
 	}
 	
 	private	static Authenticator authenticator = new Authenticator() {

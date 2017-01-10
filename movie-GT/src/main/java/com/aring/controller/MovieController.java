@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.aring.bean.BasicInfo;
+import com.aring.bean.MOrder;
 import com.aring.bean.MUser;
 import com.aring.bean.Movie;
 import com.aring.service.MUserService;
@@ -26,6 +27,7 @@ public class MovieController {
 	
 	@Autowired
 	private MUserService muserService;
+	
 	
 	@RequestMapping("/")
 	public ModelAndView index(HttpSession session){
@@ -97,8 +99,8 @@ public class MovieController {
 		PrintWriter out = resp.getWriter();
 		String result = null;
 		try {
-			Movie movie = movieService.getMovieById(id);
-			result = "{success:true,number:"+movie.getNumber()+"}";
+			Integer number= movieService.getMovieNumber(id);
+			result = "{success:true,number:"+number+"}";
 		} catch (Exception e) {
 			e.printStackTrace();
 			result="{success:false,msg:\"查询异常\"}";
@@ -116,7 +118,6 @@ public class MovieController {
 		PrintWriter out = resp.getWriter();
 		String result = null;
 		try {
-			
 			if(user==null){
 				result = "{success:false,msg:\"尚未登陆，请登录后再操作\"}";
 			}else if(user.getEmail()==null || "".equals(user.getEmail())){
@@ -124,8 +125,8 @@ public class MovieController {
 			}else if(id==null || id<1){
 				result = "{success:false,msg:\"参数不合法\"}";
 			}else{
-				movieService.movieGT(id,user);
-				result = "{success:true,msg:\"成功抢到影票，请登录邮箱查看\"}";
+				movieService.movieGT2(id,user);
+				result = "{success:true,msg:\"参与抢票中...\"}";
 			}
 		} catch (Exception e) {
 			result = "{success:false,msg:\""+e.getMessage()+"\"}";
@@ -135,8 +136,33 @@ public class MovieController {
 		}		
 	}
 	
-	
-	
+	@RequestMapping("/get-order")
+	public void getOrder(Integer id,HttpSession session,HttpServletResponse resp)throws Exception{
+		resp.setCharacterEncoding("utf-8");
+		MUser user  = (MUser) session.getAttribute("user");
+		PrintWriter out = resp.getWriter();
+		String result = null;
+		try {
+			if(user==null){
+				result = "{success:false,msg:\"尚未登陆，请登录后再操作\"}";
+			}else{
+				MOrder order = movieService.getOrder(user.getId(), id);
+				if(order==null){
+					result = "{success:false,msg:\"抢票中...\"}";
+				}else{
+					result = "{success:true,msg:\""+order.getRemark()+"\"}";
+				}
+			}
+		} catch (Exception e) {
+			result = "{success:false,msg:\""+e.getMessage()+"\"}";
+		}finally{
+			out.write(result);
+			out.close();
+		}		
+		
+		
+		
+	}
 	
 	
 	

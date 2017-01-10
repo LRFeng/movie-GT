@@ -11,6 +11,7 @@
 		    classpath:configuration/spring.xml;
 			classpath:configuration/spring-mvc.xml;
 			classpath:configuration/spring-datanucleus.xml;
+			classpath:configuration/spring-redis.xml;
 	</param-value>
 
   </context-param>

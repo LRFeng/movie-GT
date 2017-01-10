@@ -124,10 +124,12 @@
         
         
         
-        <script type="text/javascript">
-           
+        <script type="text/javascript">   	
+ 			var hasResult = false;	
+        
         	//抢购影票
         	function  getTicket(id) {
+        		hasResult = false;
         		var number = $("#movie-number").val();
 				if(number<0) {
 					alert("对不起，票余额不足");
@@ -135,8 +137,12 @@
 					$.ajax({
 						url:"movie-GT?id="+id,
 						success:function(resp){
-							 var data = eval("("+resp+")");
-							 alert(data.msg);
+							var data = eval("("+resp+")");
+							if(data.success){
+								getResult(id);					 
+   						 	}else{
+   						 	 alert(data.msg);
+   						 	}	
 						},
 						error:function(){
 							alert("服务器异常");
@@ -144,6 +150,28 @@
 					});
 				}
 			}
+        	
+        	function getResult(id){
+        		var timer = setInterval( 
+        	    	function (){
+        	    		$.ajax({
+        					url:"get-order?id="+id,
+        					success:function(resp){
+        						 var data = eval("("+resp+")");
+        						 if(data.success){
+        							 alert(data.msg);
+            						 clearInterval(timer);  							 
+        						 }
+        					},
+        					error:function(){
+        						alert("服务器异常");
+        						clearInterval(timer);  
+        					},
+        					}); 
+        	    	},1000);
+        		
+        	}
+        	
         
         
         
