@@ -105,11 +105,13 @@
                 <div>
                     <h2>${movie.name}剧情介绍</h2>
                     <P>${movie.introduction}</P>
-                     <h2>${movie.name}剧照</h2>
-                    <img src="img/movie_1_1.jpg">
-                    <img src="img/movie_1_2.jpg">
-                    <img src="img/movie_1_3.jpg">
-                                    
+                    <c:if test="${not empty images}">
+                     	<h2>${movie.name}剧照</h2>
+                     	
+                     	<c:forEach var="image" items="${images}">
+                     		<img src="${image}">
+                     	</c:forEach>    
+                    </c:if>
                 </div>
             </div>
         </div>

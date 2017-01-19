@@ -9,6 +9,7 @@
         <class>com.aring.bean.BasicInfo</class>
         <class>com.aring.bean.MUser</class>
         <class>com.aring.bean.MOrder</class>
+        <class>com.aring.bean.ImageInfo</class>
         <exclude-unlisted-classes/>
 
         <properties>

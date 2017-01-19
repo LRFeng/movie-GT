@@ -12,6 +12,7 @@ import javax.persistence.Query;
 
 import org.junit.Test;
 
+import com.aring.bean.ImageInfo;
 import com.aring.bean.MOrder;
 
 public class DataNumcleusTest {
@@ -64,7 +65,7 @@ public class DataNumcleusTest {
 		
 	}*/
 	
-	@Test
+/*	@Test
 	public void insertOrder(){
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("Movie");
 		EntityManager manager = factory.createEntityManager();
@@ -94,6 +95,28 @@ public class DataNumcleusTest {
 			}
 			manager.close();
 		}
-	}
+	}*/
 
+	
+	@Test
+	public void insertImageInfo(){
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("Movie");
+		EntityManager manager = factory.createEntityManager();
+		EntityTransaction ts = manager.getTransaction();
+		try{
+			ts.begin();
+			ImageInfo imageInfo = new ImageInfo();
+			imageInfo.setPath("/file/test.jpg");
+			imageInfo.setMid(1);
+			manager.persist(imageInfo);
+			ts.commit();
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			if(ts.isActive()){
+				ts.rollback();
+			}
+			manager.close();
+		}
+	}
 }

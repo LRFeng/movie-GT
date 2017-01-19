@@ -18,6 +18,8 @@ public interface MovieService {
 	
 	public Movie getMovieById(int id);
 	
+	public List<String> getMovieImage(int mid);
+	
 	public void addMovie(Movie movie);
 	
 	public Integer getMovieNumber(int id);

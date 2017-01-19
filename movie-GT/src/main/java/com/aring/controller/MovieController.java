@@ -84,7 +84,9 @@ public class MovieController {
 		String flag = (String) session.getAttribute("loginFlag");
 		ModelAndView mav = new  ModelAndView("movie");
 		Movie movie = movieService.getMovieById(id);
+		List<String> images = movieService.getMovieImage(id);
 		mav.addObject("movie", movie);
+		mav.addObject("images", images);
 		if(user!=null){
 			mav.addObject("user", user);
 			mav.addObject("loginFlag",flag);

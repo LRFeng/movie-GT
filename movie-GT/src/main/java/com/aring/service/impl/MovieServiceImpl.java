@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.aring.bean.BasicInfo;
+import com.aring.bean.ImageInfo;
 import com.aring.bean.MOrder;
 import com.aring.bean.MUser;
 import com.aring.bean.Movie;
@@ -143,7 +144,7 @@ public class MovieServiceImpl implements MovieService{
 							String content=EmailService.EMAIL_CONTEXT1+""
 									+ "<a href=\""+domain+"/movie?id="+mid+"\">"+movie.getName()+"</a><img src=\""+domain+movie.getPath()+"\"/>"
 									+ ""+EmailService.EMAIL_CONTEXT2;
-							//emailService.send(user.getEmail(),EmailService.EMAIL_TITLE, content);
+							emailService.send(user.getEmail(),EmailService.EMAIL_TITLE, content);
 							order.setStatus(2);
 							order.setRemark("恭喜抢到一张影票，已发送邮件");
 						} catch (Exception e) {
@@ -201,7 +202,7 @@ public class MovieServiceImpl implements MovieService{
 						String content=EmailService.EMAIL_CONTEXT1+""
 								+ "<a href=\""+domain+"/movie?id="+id+"\">"+movie.getName()+"</a><img src=\""+domain+movie.getPath()+"\"/>"
 								+ ""+EmailService.EMAIL_CONTEXT2;
-						//emailService.send(user.getEmail(),EmailService.EMAIL_TITLE, content);
+						emailService.send(user.getEmail(),EmailService.EMAIL_TITLE, content);
 						order.setStatus(2);
 						order.setRemark("恭喜抢到一张影票，已发送邮件");
 					} catch (Exception e) {
@@ -232,6 +233,16 @@ public class MovieServiceImpl implements MovieService{
 		order.setMid(mid);
 		order.setUid(uid);
 		return movieDao.selectOrder(order);
+	}
+
+	@Override
+	public List<String> getMovieImage(int mid) {
+		List<ImageInfo> infos = movieDao.selectImageInfo(mid);
+		List<String> paths = new ArrayList<>();
+		for (ImageInfo imageInfo : infos) {
+			paths.add(domain+imageInfo.getPath());
+		}
+		return paths;
 	}
 
 }

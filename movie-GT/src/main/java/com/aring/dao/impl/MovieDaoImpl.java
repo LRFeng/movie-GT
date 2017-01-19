@@ -11,6 +11,7 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.aring.bean.ImageInfo;
 import com.aring.bean.MOrder;
 import com.aring.bean.Movie;
 import com.aring.dao.MovieDao;
@@ -74,6 +75,20 @@ public class MovieDaoImpl  implements MovieDao{
 	    }
 	    if(orders.size()==0) return null;
 	    else return orders.get(0);
+	}
+
+	@Override
+	public List<ImageInfo> selectImageInfo(int mid) {
+		String sql = "select m from ImageInfo m where m.mid="+mid;
+		Query query = em.createQuery(sql);
+		List results = query.getResultList();
+		Iterator iter = results.iterator();
+		List<ImageInfo> infos = new ArrayList<>();
+		while(iter.hasNext()){
+			ImageInfo info = (ImageInfo) iter.next();
+			infos.add(info);
+		}
+		return infos;
 	}
 
 }

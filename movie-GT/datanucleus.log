@@ -8047,3 +8047,616 @@ org.datanucleus.exceptions.ClassNotResolvedException: Class "com.aring.bean.Basi
 22:32:32,982 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
 22:32:32,984 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
 22:32:32,984 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+22:32:54,157 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+22:32:54,395 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+22:32:54,538 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+22:32:54,540 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+22:32:54,541 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+22:32:54,542 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+22:32:54,543 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+22:33:16,886 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+22:33:17,080 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+22:33:17,248 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+22:33:17,250 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+22:33:17,251 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+22:33:17,253 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+22:33:17,253 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+22:34:32,086 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+22:34:32,297 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+22:34:32,450 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+22:34:32,451 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+22:34:32,452 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+22:34:32,454 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+22:34:32,454 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+22:34:34,352 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+22:34:34,948 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+22:34:35,143 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+22:34:35,145 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+22:34:35,147 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+22:34:35,152 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+22:34:35,152 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+22:34:56,221 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+22:34:56,405 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+22:34:56,560 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+22:34:56,561 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+22:34:56,562 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+22:34:56,564 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+22:34:56,564 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+14:11:04,459 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+14:11:04,492 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+14:11:05,079 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+14:11:05,079 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+14:11:05,737 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+14:11:05,740 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+14:11:05,745 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+14:11:05,750 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+14:11:05,751 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+14:11:05,751 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+14:11:05,752 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+14:11:05,754 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+14:11:05,755 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+14:11:05,755 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+14:13:41,886 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+14:13:42,577 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+14:13:42,974 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+14:13:42,977 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+14:13:42,979 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+14:13:42,983 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+14:13:42,984 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+14:15:49,568 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+14:15:49,951 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+14:15:50,207 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+14:15:50,209 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+14:15:50,210 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+14:15:50,215 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+14:15:50,215 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+15:52:39,818 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+15:52:40,491 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+15:52:41,094 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+15:52:41,096 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+15:52:41,099 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+15:52:41,101 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+15:52:41,102 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+10:37:49,117 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+10:37:49,293 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+10:37:49,441 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+10:37:49,456 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+10:37:49,457 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+10:37:49,459 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+10:37:49,459 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+09:53:09,534 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+09:53:09,974 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+09:53:10,466 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+09:53:10,469 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+09:53:10,470 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+09:53:10,471 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+09:53:10,472 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+15:23:43,219 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+15:23:43,509 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+15:23:43,682 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+15:23:43,684 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+15:23:43,685 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+15:23:43,688 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+15:23:43,688 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+15:30:53,371 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+15:30:53,601 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+15:30:53,776 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+15:30:53,778 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+15:30:53,779 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+15:30:53,780 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+15:30:53,780 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+10:54:34,880 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+10:54:35,092 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+10:54:35,251 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+10:54:35,254 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+10:54:35,255 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+10:54:35,257 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+10:54:35,257 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+10:56:46,063 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+10:56:46,268 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+10:56:46,416 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+10:56:46,419 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+10:56:46,420 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+10:56:46,425 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+10:56:46,425 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+10:57:18,502 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+10:57:18,707 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+10:57:18,863 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+10:57:18,865 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+10:57:18,866 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+10:57:18,868 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+10:57:18,868 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+10:58:31,210 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+10:58:31,485 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+10:58:31,641 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+10:58:31,643 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+10:58:31,645 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+10:58:31,647 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+10:58:31,647 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:04:37,668 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:04:38,149 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:04:38,445 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:04:38,447 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:04:38,452 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:04:38,455 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:04:38,455 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:04:39,015 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:04:39,265 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:04:39,461 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:04:39,464 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:04:39,466 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:04:39,471 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:04:39,472 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:08,867 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:09,164 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:09,629 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:09,640 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:09,641 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:09,645 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:09,646 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:10,045 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:10,282 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:10,481 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:10,483 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:10,484 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:10,491 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:10,491 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:27,556 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:27,872 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:28,161 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:28,163 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:28,164 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:28,166 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:28,166 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:28,516 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:28,768 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:28,965 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:28,969 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:28,971 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:28,972 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:28,973 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:51,746 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:52,177 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:52,444 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:52,448 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:52,449 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:52,454 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:52,454 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:06:52,875 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:06:53,137 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:06:53,337 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:06:53,340 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:06:53,342 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:06:53,343 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:06:53,344 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:13:20,498 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:13:20,915 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:13:21,248 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:13:21,252 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:13:21,256 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:13:21,259 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:13:21,260 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:13:21,905 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:13:22,161 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:13:22,365 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:13:22,368 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:13:22,370 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:13:22,371 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:13:22,372 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:15:33,380 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:15:33,666 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:15:33,968 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:15:33,971 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:15:33,973 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:15:33,978 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:15:33,979 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:15:34,353 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:15:34,903 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:15:35,430 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:15:35,437 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:15:35,445 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:15:35,456 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:15:35,456 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:17:29,239 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:17:30,095 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:17:30,552 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:17:30,556 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:17:30,558 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:17:30,562 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:17:30,562 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:17:31,067 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:17:31,316 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:17:31,501 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:17:31,503 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:17:31,509 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:17:31,510 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:17:31,510 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:19:17,235 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:19:17,487 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:19:17,806 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:19:17,812 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:19:17,814 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:19:17,817 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:19:17,817 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:19:18,142 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:19:18,521 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:19:18,749 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:19:18,755 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:19:18,757 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:19:18,760 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:19:18,760 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:22:44,661 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:22:44,978 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:22:45,341 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:22:45,351 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:22:45,354 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:22:45,355 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:22:45,365 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:22:45,747 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:22:46,002 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:22:46,197 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:22:46,200 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:22:46,201 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:22:46,203 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:22:46,210 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:22:50,807 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:22:51,164 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:22:51,605 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:22:51,611 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:22:51,614 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:22:51,615 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:22:51,616 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:22:52,106 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:22:52,342 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:22:52,519 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:22:52,521 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:22:52,522 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:22:52,525 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:22:52,525 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:24:00,314 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:24:00,645 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:24:00,902 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:24:00,906 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:24:00,907 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:24:00,909 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:24:00,909 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:24:01,284 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:24:01,549 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:24:01,735 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:24:01,737 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:24:01,739 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:24:01,746 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:24:01,746 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:24:55,695 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:24:56,080 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:24:56,336 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:24:56,348 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:24:56,350 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:24:56,355 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:24:56,355 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:24:56,787 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:24:57,053 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:24:57,244 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:24:57,248 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:24:57,249 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:24:57,251 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:24:57,255 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:39,948 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:40,515 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:40,978 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:40,980 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:40,981 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:40,985 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:40,986 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:41,646 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:42,018 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:42,204 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:42,206 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:42,208 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:42,209 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:42,212 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:51,985 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:52,362 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:52,624 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:52,649 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:52,651 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:52,654 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:52,654 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:53,132 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:53,380 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:53,567 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:53,570 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:53,571 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:53,574 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:53,574 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:55,618 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:56,008 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:56,355 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:56,357 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:56,359 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:56,372 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:56,373 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:26:56,729 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:26:57,016 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:26:57,228 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:26:57,231 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:26:57,233 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:26:57,241 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:26:57,241 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:17,548 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:18,143 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:18,459 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:18,462 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:18,466 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:18,473 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:18,473 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:18,965 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:19,229 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:19,407 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:19,410 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:19,412 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:19,415 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:19,416 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:28,896 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:29,225 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:29,557 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:29,572 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:29,574 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:29,584 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:29,584 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:29,963 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:30,212 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:30,395 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:30,398 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:30,403 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:30,405 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:30,406 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:54,965 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:55,325 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:55,587 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:55,590 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:55,594 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:55,604 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:55,604 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:27:56,440 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:27:56,848 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:27:57,047 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:27:57,051 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:27:57,052 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:27:57,053 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:27:57,053 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:30:54,550 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:30:54,847 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:30:55,128 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:30:55,130 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:30:55,131 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:30:55,133 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:30:55,133 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:30:55,551 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:30:55,798 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:30:55,979 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:30:55,981 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:30:55,983 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:30:55,985 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:30:55,985 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:31:57,288 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:31:57,685 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:31:58,012 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:31:58,014 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:31:58,016 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:31:58,024 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:31:58,024 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:31:58,594 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:31:58,847 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:31:59,033 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:31:59,036 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:31:59,040 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:31:59,042 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:31:59,042 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:33:02,779 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:33:03,082 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:33:03,483 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:33:03,493 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:33:03,521 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:33:03,528 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:33:03,528 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:33:04,023 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:33:04,290 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:33:04,488 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:33:04,491 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:33:04,492 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:33:04,494 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:33:04,494 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:33:12,629 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:33:12,892 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:33:13,070 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:33:13,073 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:33:13,074 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:33:13,076 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:33:13,077 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:33:33,927 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:33:34,242 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:33:34,458 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:33:34,459 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:33:34,461 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:33:34,462 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:33:34,463 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:35:23,195 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:35:23,675 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:35:24,067 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:35:24,069 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:35:24,073 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:35:24,078 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:35:24,079 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:35:24,518 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:35:24,899 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:35:25,262 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:35:25,268 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:35:25,269 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:35:25,271 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:35:25,271 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:35:27,137 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:35:27,405 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:35:27,588 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:35:27,590 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:35:27,591 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:35:27,596 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:35:27,596 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:35:47,492 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:35:47,782 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:35:48,006 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:35:48,008 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:35:48,009 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:35:48,017 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:35:48,017 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:36:15,936 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:36:16,285 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:36:16,560 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:36:16,563 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:36:16,565 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:36:16,568 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:36:16,568 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+11:36:46,898 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:36:47,575 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:36:48,137 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:36:48,145 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:36:48,148 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:36:48,206 (main) INFO  [DataNucleus.Enhancer] - Writing class file "E:\git_project\movie-GT\movie-GT\target\classes\com\aring\bean\ImageInfo.class" with enhanced definition
+11:36:48,213 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:36:48,213 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+11:36:48,780 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:36:49,047 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:36:49,241 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:36:49,243 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:36:49,245 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:36:49,247 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+11:36:49,249 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:36:49,249 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+11:37:06,599 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:37:06,881 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:37:07,089 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:37:07,095 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:37:07,097 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:37:07,098 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+11:37:07,102 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:37:07,102 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+11:37:14,797 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+11:37:15,142 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+11:37:15,347 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+11:37:15,349 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+11:37:15,350 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+11:37:15,352 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+11:37:15,353 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+11:37:15,353 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:23:29,496 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:23:29,696 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:23:29,966 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:23:29,969 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:23:29,970 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:23:29,972 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:23:29,973 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:23:29,973 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:23:30,511 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:23:30,708 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:23:30,873 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:23:30,874 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:23:30,875 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:23:30,876 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:23:30,880 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:23:30,881 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:25:02,526 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:25:02,875 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:25:03,146 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:25:03,149 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:25:03,151 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:25:03,152 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:25:03,154 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:25:03,155 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:25:03,806 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:25:04,105 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:25:04,317 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:25:04,321 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:25:04,322 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:25:04,323 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:25:04,330 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:25:04,330 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:27:32,539 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:27:32,834 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:27:33,144 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:27:33,146 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:27:33,150 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:27:33,156 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:27:33,160 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:27:33,160 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:27:50,975 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:27:51,264 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:27:51,470 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:27:51,473 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:27:51,475 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:27:51,476 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:27:51,480 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:27:51,480 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:28:25,231 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:28:25,610 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:28:25,797 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:28:25,800 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:28:25,803 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:28:25,805 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:28:25,808 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:28:25,808 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:47:48,379 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:47:48,606 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:47:48,791 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:47:48,794 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:47:48,795 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:47:48,796 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:47:48,798 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:47:48,799 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:48:47,200 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:48:47,499 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:48:47,711 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:48:47,719 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:48:47,721 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:48:47,723 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:48:47,727 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:48:47,728 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:49:14,522 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:49:14,765 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:49:14,964 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:49:14,965 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:49:14,967 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:49:14,969 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:49:14,970 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:49:14,971 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:49:18,909 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:49:19,132 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:49:19,310 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:49:19,313 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:49:19,316 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:49:19,322 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:49:19,327 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:49:19,328 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:49:22,005 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:49:22,220 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:49:22,403 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:49:22,405 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:49:22,408 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:49:22,410 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:49:22,412 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:49:22,412 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:49:27,623 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:49:27,959 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:49:28,231 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:49:28,234 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:49:28,235 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:49:28,237 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:49:28,239 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:49:28,239 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.
+12:50:03,926 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+12:50:04,196 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.5) for API "JPA"
+12:50:04,374 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.BasicInfo" is already enhanced.
+12:50:04,376 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MOrder" is already enhanced.
+12:50:04,377 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.Movie" is already enhanced.
+12:50:04,379 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.ImageInfo" is already enhanced.
+12:50:04,381 (main) INFO  [DataNucleus.Enhancer] - Class "com.aring.bean.MUser" is already enhanced.
+12:50:04,383 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 5 classes.

@@ -274,3 +274,290 @@
 3351 DEBUG [2017-01-10 22:25:09]  DetachOnClose : completed detach
 3351 DEBUG [2017-01-10 22:25:09]  ExecutionContext is closing so closing query results for "SELECT m FROM MOrder m WHERE m.uid = '3798613182' and m.mid=2"
 3352 DEBUG [2017-01-10 22:25:09]  ExecutionContext "org.datanucleus.ExecutionContextImpl@5ffead27" closed
+0    DEBUG [2017-01-19 12:25:13]  Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+36   DEBUG [2017-01-19 12:25:13]  Registering bundle org.datanucleus version 5.0.5 at URL file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-core/5.0.5/datanucleus-core-5.0.5.jar.
+88   DEBUG [2017-01-19 12:25:13]  Loading extension points from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-core/5.0.5/datanucleus-core-5.0.5.jar!/plugin.xml.
+126  DEBUG [2017-01-19 12:25:13]  Loading extensions from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-core/5.0.5/datanucleus-core-5.0.5.jar!/plugin.xml.
+139  DEBUG [2017-01-19 12:25:13]  Registering bundle org.datanucleus.api.jpa version 5.0.5 at URL file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-api-jpa/5.0.5/datanucleus-api-jpa-5.0.5.jar.
+146  DEBUG [2017-01-19 12:25:13]  Loading extension points from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-api-jpa/5.0.5/datanucleus-api-jpa-5.0.5.jar!/plugin.xml.
+151  DEBUG [2017-01-19 12:25:13]  Loading extensions from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-api-jpa/5.0.5/datanucleus-api-jpa-5.0.5.jar!/plugin.xml.
+164  DEBUG [2017-01-19 12:25:13]  Registering bundle org.datanucleus.enhancer version 3.0.0.m4 at URL file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar.
+166  DEBUG [2017-01-19 12:25:13]  Loading extension points from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar!/plugin.xml.
+167  DEBUG [2017-01-19 12:25:13]  Loading extensions from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar!/plugin.xml.
+169  DEBUG [2017-01-19 12:25:13]  Registering bundle org.datanucleus.store.rdbms version 5.0.5 at URL file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-rdbms/5.0.5/datanucleus-rdbms-5.0.5.jar.
+192  DEBUG [2017-01-19 12:25:13]  Loading extension points from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-rdbms/5.0.5/datanucleus-rdbms-5.0.5.jar!/plugin.xml.
+216  DEBUG [2017-01-19 12:25:13]  Loading extensions from plug-in file jar:file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-rdbms/5.0.5/datanucleus-rdbms-5.0.5.jar!/plugin.xml.
+223  WARN  [2017-01-19 12:25:13]  Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/D:/Program%20Files/server/apache-maven-3.3.9/repo/org/datanucleus/datanucleus-enhancer/3.0.0-m4/datanucleus-enhancer-3.0.0-m4.jar refers to it.
+245  DEBUG [2017-01-19 12:25:13]  Parsing MetaData file "file:/E:/git_project/movie-GT/movie-GT/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+332  DEBUG [2017-01-19 12:25:13]  Java types support initialising ...
+441  DEBUG [2017-01-19 12:25:13]  Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+443  DEBUG [2017-01-19 12:25:13]  Type converter support initialising ...
+520  DEBUG [2017-01-19 12:25:13]  Type converter support loaded
+521  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+522  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+522  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+522  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+522  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+522  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+523  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+523  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+523  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+523  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.awt.image.BufferedImage to : java.nio.ByteBuffer,byte[]
+523  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.io.Serializable to : java.nio.ByteBuffer,java.lang.String,byte[]
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.Character to : java.lang.String
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.Class to : java.lang.String
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.Integer to : java.lang.String
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.Long to : java.lang.String
+524  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.nio.ByteBuffer,java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.math.BigInteger to : java.lang.Long,java.nio.ByteBuffer,java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.net.URI to : java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.net.URL to : java.lang.String
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.sql.Date to : java.lang.Long,java.lang.String,java.util.Date
+525  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.sql.Time to : java.lang.Long,java.lang.String,java.util.Date
+526  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.sql.Timestamp to : java.lang.Long,java.lang.String,java.util.Date
+526  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.Duration to : java.lang.Long,java.lang.Double,java.lang.String
+526  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.Instant to : java.sql.Timestamp,java.lang.Long,java.lang.String,java.util.Date
+526  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.LocalDate to : java.sql.Date,java.lang.String,java.util.Date
+526  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.LocalDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+527  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.LocalTime to : java.lang.Long,java.lang.String,java.sql.Time,java.util.Date
+527  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.MonthDay to : int[],java.sql.Date,java.lang.String,java.util.Date
+527  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.OffsetDateTime to : java.sql.Timestamp,java.lang.String,java.util.Date
+527  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.OffsetTime to : java.lang.Long,java.lang.String,java.sql.Time
+527  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.Period to : java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.Year to : java.lang.Integer,java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.YearMonth to : int[],java.sql.Date,java.lang.String,java.util.Date
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.ZonedDateTime to : java.sql.Timestamp,java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.BitSet to : java.lang.String
+528  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.Calendar to : java.sql.Timestamp,[Ljava.lang.Object;,java.lang.String,java.util.Date
+529  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.Currency to : java.lang.String
+529  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.Date to : java.lang.Long,java.lang.String
+529  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.Locale to : java.lang.String
+529  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+530  DEBUG [2017-01-19 12:25:13]  TypeConverter(s) available for java.util.UUID to : java.lang.String
+530  DEBUG [2017-01-19 12:25:13]  MetaDataManager : Input=(XML,Annotations), XML-Validation=false
+531  DEBUG [2017-01-19 12:25:13]  MetaData Management : Loading Metadata for persistence-unit "Movie" ...
+534  DEBUG [2017-01-19 12:25:13]  Not found any metadata mapping files for resource name META-INF/orm.xml in CLASSPATH
+608  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.BasicInfo" has been specified with JPA annotations so using those.
+644  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MOrder" has been specified with JPA annotations so using those.
+654  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.Movie" has been specified with JPA annotations so using those.
+669  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.ImageInfo" has been specified with JPA annotations so using those.
+674  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MUser" has been specified with JPA annotations so using those.
+677  DEBUG [2017-01-19 12:25:13]  Populating all MetaData ...
+678  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.BasicInfo" : Populating Meta-Data
+680  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MOrder" : Populating Meta-Data
+680  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.Movie" : Populating Meta-Data
+681  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.ImageInfo" : Populating Meta-Data
+682  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MUser" : Populating Meta-Data
+683  DEBUG [2017-01-19 12:25:13]  Initialising all MetaData ...
+685  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.BasicInfo" : Initialising Meta-Data
+697  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MOrder" : Initialising Meta-Data
+698  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.Movie" : Initialising Meta-Data
+698  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.ImageInfo" : Initialising Meta-Data
+699  DEBUG [2017-01-19 12:25:13]  Class "com.aring.bean.MUser" : Initialising Meta-Data
+700  DEBUG [2017-01-19 12:25:13]  MetaData Management : Load of Metadata complete
+701  DEBUG [2017-01-19 12:25:13]  Creating StoreManager for datastore
+773  DEBUG [2017-01-19 12:25:14]  Created tx data source using pooling type of tomcat
+774  DEBUG [2017-01-19 12:25:14]  Registered transactional connection factory under name "rdbms/tx"
+775  DEBUG [2017-01-19 12:25:14]  Registered nontransactional connection factory under name "rdbms/nontx"
+807  DEBUG [2017-01-19 12:25:14]  Created nontx data source using pooling type of tomcat
+1847 DEBUG [2017-01-19 12:25:15]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@6295d394 [conn=null, commitOnRelease=true, closeOnRelease=true, closeOnTxnEnd=true]" opened
+1893 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Boolean (jdbc-type=BIT, sql-type=BIT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping, default=true)
+1894 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Boolean (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1894 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Boolean (jdbc-type=BOOLEAN, sql-type=BOOLEAN, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BooleanRDBMSMapping, default=false)
+1895 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Boolean (jdbc-type=TINYINT, sql-type=TINYINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TinyIntRDBMSMapping, default=false)
+1896 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Boolean (jdbc-type=SMALLINT, sql-type=SMALLINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.SmallIntRDBMSMapping, default=false)
+1898 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Byte (jdbc-type=TINYINT, sql-type=TINYINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TinyIntRDBMSMapping, default=true)
+1898 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Byte (jdbc-type=SMALLINT, sql-type=SMALLINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.SmallIntRDBMSMapping, default=false)
+1898 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Character (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=true)
+1909 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Character (jdbc-type=INTEGER, sql-type=INTEGER, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping, default=false)
+1911 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Double (jdbc-type=DOUBLE, sql-type=DOUBLE, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping, default=true)
+1912 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Double (jdbc-type=DECIMAL, sql-type=DECIMAL, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping, default=false)
+1913 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Float (jdbc-type=FLOAT, sql-type=FLOAT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.FloatRDBMSMapping, default=true)
+1913 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Float (jdbc-type=DOUBLE, sql-type=DOUBLE, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping, default=false)
+1914 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Float (jdbc-type=REAL, sql-type=REAL, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.RealRDBMSMapping, default=false)
+1916 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Float (jdbc-type=DECIMAL, sql-type=DECIMAL, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping, default=false)
+1916 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Integer (jdbc-type=INTEGER, sql-type=INTEGER, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping, default=true)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Integer (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=false)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Integer (jdbc-type=NUMERIC, sql-type=NUMERIC, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NumericRDBMSMapping, default=false)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Integer (jdbc-type=TINYINT, sql-type=TINYINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TinyIntRDBMSMapping, default=false)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Integer (jdbc-type=SMALLINT, sql-type=SMALLINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.SmallIntRDBMSMapping, default=false)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Long (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=true)
+1918 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Long (jdbc-type=INTEGER, sql-type=INT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping, default=false)
+1919 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Long (jdbc-type=NUMERIC, sql-type=NUMERIC, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NumericRDBMSMapping, default=false)
+1919 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Long (jdbc-type=TINYINT, sql-type=TINYINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TinyIntRDBMSMapping, default=false)
+1919 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Long (jdbc-type=SMALLINT, sql-type=SMALLINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.SmallIntRDBMSMapping, default=false)
+1919 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Short (jdbc-type=SMALLINT, sql-type=SMALLINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.SmallIntRDBMSMapping, default=true)
+1920 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Short (jdbc-type=INTEGER, sql-type=INTEGER, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping, default=false)
+1920 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.Short (jdbc-type=TINYINT, sql-type=TINYINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TinyIntRDBMSMapping, default=false)
+1921 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=true)
+1922 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1922 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=false)
+1923 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=LONGVARCHAR, sql-type=LONGVARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.LongVarcharRDBMSMapping, default=false)
+1924 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=CLOB, sql-type=CLOB, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.ClobRDBMSMapping, default=false)
+1926 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=BLOB, sql-type=BLOB, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BlobRDBMSMapping, default=false)
+1928 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=LONGVARCHAR, sql-type=LONGTEXT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.LongVarcharRDBMSMapping, default=false)
+1928 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=LONGVARCHAR, sql-type=MEDIUMTEXT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.LongVarcharRDBMSMapping, default=false)
+1928 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=LONGVARCHAR, sql-type=TEXT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.LongVarcharRDBMSMapping, default=false)
+1928 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=BLOB, sql-type=LONGBLOB, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BlobRDBMSMapping, default=false)
+1928 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=BLOB, sql-type=MEDIUMBLOB, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BlobRDBMSMapping, default=false)
+1930 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=NVARCHAR, sql-type=NVARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NVarcharRDBMSMapping, default=false)
+1930 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.lang.String (jdbc-type=NCHAR, sql-type=NCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NCharRDBMSMapping, default=false)
+1931 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.math.BigDecimal (jdbc-type=DECIMAL, sql-type=DECIMAL, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DecimalRDBMSMapping, default=true)
+1931 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.math.BigDecimal (jdbc-type=NUMERIC, sql-type=NUMERIC, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NumericRDBMSMapping, default=false)
+1931 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.math.BigInteger (jdbc-type=NUMERIC, sql-type=NUMERIC, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NumericRDBMSMapping, default=true)
+1932 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Date (jdbc-type=DATE, sql-type=DATE, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping, default=true)
+1933 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Date (jdbc-type=TIMESTAMP, sql-type=TIMESTAMP, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping, default=false)
+1934 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Date (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1934 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Date (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=false)
+1935 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Date (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=false)
+1935 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Time (jdbc-type=TIME, sql-type=TIME, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimeRDBMSMapping, default=true)
+1936 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Time (jdbc-type=TIMESTAMP, sql-type=TIMESTAMP, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping, default=false)
+1936 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Time (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1937 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Time (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=false)
+1937 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Time (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=false)
+1938 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Timestamp (jdbc-type=TIMESTAMP, sql-type=TIMESTAMP, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping, default=true)
+1938 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Timestamp (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1938 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Timestamp (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=false)
+1939 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Timestamp (jdbc-type=DATE, sql-type=DATE, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping, default=false)
+1939 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.sql.Timestamp (jdbc-type=TIME, sql-type=TIME, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimeRDBMSMapping, default=false)
+1939 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=TIMESTAMP, sql-type=TIMESTAMP, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping, default=true)
+1939 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=DATE, sql-type=DATE, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping, default=false)
+1939 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1940 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=false)
+1941 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=false)
+1941 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.util.Date (jdbc-type=TIME, sql-type=TIME, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.TimeRDBMSMapping, default=false)
+1943 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.io.Serializable (jdbc-type=LONGVARBINARY, sql-type=LONGVARBINARY, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.LongVarBinaryRDBMSMapping, default=true)
+1943 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.io.Serializable (jdbc-type=BLOB, sql-type=BLOB, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BlobRDBMSMapping, default=false)
+1944 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.io.Serializable (jdbc-type=VARBINARY, sql-type=VARBINARY, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarBinaryRDBMSMapping, default=false)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type java.io.File (jdbc-type=LONGVARBINARY, sql-type=LONGVARBINARY, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BinaryStreamRDBMSMapping, default=true)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type org.datanucleus.identity.DatastoreId (jdbc-type=BIGINT, sql-type=BIGINT, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping, default=true)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type org.datanucleus.identity.DatastoreId (jdbc-type=INTEGER, sql-type=INTEGER, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping, default=false)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type org.datanucleus.identity.DatastoreId (jdbc-type=NUMERIC, sql-type=NUMERIC, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.NumericRDBMSMapping, default=false)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type org.datanucleus.identity.DatastoreId (jdbc-type=CHAR, sql-type=CHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.CharRDBMSMapping, default=false)
+1945 DEBUG [2017-01-19 12:25:15]  Adding RDBMS support for Java type org.datanucleus.identity.DatastoreId (jdbc-type=VARCHAR, sql-type=VARCHAR, datastore-mapping-type=org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping, default=false)
+1956 DEBUG [2017-01-19 12:25:15]  Removing RDBMS support for Java type java.lang.Float (jdbc-type=REAL, sql-type=REAL)
+1957 DEBUG [2017-01-19 12:25:15]  Removing RDBMS support for Java type java.lang.String (jdbc-type=NVARCHAR, sql-type=NVARCHAR)
+1957 DEBUG [2017-01-19 12:25:15]  Removing RDBMS support for Java type java.lang.String (jdbc-type=NCHAR, sql-type=NCHAR)
+1957 DEBUG [2017-01-19 12:25:15]  Removing RDBMS support for Java type java.lang.Boolean (jdbc-type=BOOLEAN, sql-type=BOOLEAN)
+1981 DEBUG [2017-01-19 12:25:15]  Column "`DELETEME1484799915218`.`UNUSED`" added to internal representation of table.
+1983 DEBUG [2017-01-19 12:25:15]  Creating table `DELETEME1484799915218`
+1986 DEBUG [2017-01-19 12:25:15]  CREATE TABLE `DELETEME1484799915218`
+(
+    `UNUSED` INTEGER NOT NULL
+) ENGINE=INNODB
+2275 DEBUG [2017-01-19 12:25:15]  Execution Time = 287 ms
+2307 DEBUG [2017-01-19 12:25:15]  Schema Name could not be determined for this datastore
+2307 DEBUG [2017-01-19 12:25:15]  Dropping table `DELETEME1484799915218`
+2307 DEBUG [2017-01-19 12:25:15]  DROP TABLE `DELETEME1484799915218` CASCADE
+2366 DEBUG [2017-01-19 12:25:15]  Execution Time = 58 ms
+2372 DEBUG [2017-01-19 12:25:15]  ======================= Datastore =========================
+2372 DEBUG [2017-01-19 12:25:15]  StoreManager : "rdbms" (org.datanucleus.store.rdbms.RDBMSStoreManager)
+2373 DEBUG [2017-01-19 12:25:15]  Datastore : read-write
+2373 DEBUG [2017-01-19 12:25:15]  Schema Control : AutoCreate(Tables,Columns,Constraints), Validate(None)
+2374 DEBUG [2017-01-19 12:25:15]  Schema : NamingFactory=jpa identifierCase=null
+2374 DEBUG [2017-01-19 12:25:15]  Query Languages : [JDOQL, JPQL, SQL, STOREDPROC]
+2374 DEBUG [2017-01-19 12:25:15]  Queries : Timeout=0
+2374 DEBUG [2017-01-19 12:25:15]  ===========================================================
+2374 DEBUG [2017-01-19 12:25:15]  Datastore Adapter : org.datanucleus.store.rdbms.adapter.MySQLAdapter
+2374 DEBUG [2017-01-19 12:25:15]  Datastore : name="MySQL" version="5.5.5-10.2.2-MariaDB"
+2374 DEBUG [2017-01-19 12:25:15]  Datastore Driver : name="MySQL-AB JDBC Driver" version="mysql-connector-java-5.1.17 ( Revision: ${bzr.revision-id} )"
+2375 DEBUG [2017-01-19 12:25:15]  Primary Connection Factory : URL[jdbc:mysql://123.207.246.80:3306/movie_GT?characterEncoding=utf-8]
+2375 DEBUG [2017-01-19 12:25:15]  Secondary Connection Factory : URL[jdbc:mysql://123.207.246.80:3306/movie_GT?characterEncoding=utf-8]
+2375 DEBUG [2017-01-19 12:25:15]  Datastore Identifiers : factory="jpa" case="UPPERCASE" catalog=movie_GT
+2375 DEBUG [2017-01-19 12:25:15]  Supported Identifier Cases : MixedCase "MixedCase" "UPPERCASE" MixedCase-Sensitive "MixedCase-Sensitive" 
+2375 DEBUG [2017-01-19 12:25:15]  Supported Identifier Lengths (max) : Table=64 Column=64 Constraint=64 Index=64 Delimiter=`
+2376 DEBUG [2017-01-19 12:25:15]  Support for Identifiers in DDL : catalog=true schema=false
+2376 DEBUG [2017-01-19 12:25:15]  Datastore : checkTableViewExistence, rdbmsConstraintCreateMode=DataNucleus, initialiseColumnInfo=ALL
+2376 DEBUG [2017-01-19 12:25:15]  Support Statement Batching : yes (max-batch-size=50)
+2376 DEBUG [2017-01-19 12:25:15]  Queries : Results direction=forward, type=forward-only, concurrency=read-only
+2376 DEBUG [2017-01-19 12:25:15]  Java-Types : string-default-length=255
+2376 DEBUG [2017-01-19 12:25:15]  JDBC-Types : VARCHAR, LONGVARCHAR, BINARY, VARBINARY, LONGVARBINARY, BIGINT, TINYINT, BIT, CHAR, NUMERIC, DECIMAL, INTEGER, CLOB, SMALLINT, BLOB, FLOAT, DOUBLE, DATE, TIME, TIMESTAMP
+2377 DEBUG [2017-01-19 12:25:15]  ===========================================================
+2377 DEBUG [2017-01-19 12:25:15]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@6295d394 [conn=com.sun.proxy.$Proxy10@13e39c73, commitOnRelease=true, closeOnRelease=true, closeOnTxnEnd=true]" closed
+2377 DEBUG [2017-01-19 12:25:15]  StoreManager now created
+2382 DEBUG [2017-01-19 12:25:15]  Level 2 Cache of type "soft" initialised
+2384 DEBUG [2017-01-19 12:25:15]  Started pool of ExecutionContext (maxPool=20, reaperThread=false)
+2396 DEBUG [2017-01-19 12:25:15]  ================= NucleusContext ===============
+2397 DEBUG [2017-01-19 12:25:15]  DataNucleus Context : Version "5.0.5" with JRE "1.8.0_111" on "Windows 10"
+2397 DEBUG [2017-01-19 12:25:15]  Persistence API : JPA
+2397 DEBUG [2017-01-19 12:25:15]  Persistence-Unit : Movie
+2397 DEBUG [2017-01-19 12:25:15]  Plugin Registry : org.datanucleus.plugin.NonManagedPluginRegistry
+2397 DEBUG [2017-01-19 12:25:15]  ClassLoading : default
+2397 DEBUG [2017-01-19 12:25:15]  Persistence : pm-singlethreaded, retain-values, nontransactional-read, nontransactional-write, detach-on-close, copy-on-attach, deletion-policy=JDO2, serverTimeZone=Asia/Shanghai
+2398 DEBUG [2017-01-19 12:25:15]  Transactions : type=RESOURCE_LOCAL, mode=optimistic, isolation=read-committed
+2398 DEBUG [2017-01-19 12:25:15]  ValueGeneration : txn-isolation=read-committed connection=New
+2398 DEBUG [2017-01-19 12:25:15]  Cache : Level1 (soft), Level2 (soft, mode=UNSPECIFIED), QueryResults (soft), Collections/Maps 
+2398 DEBUG [2017-01-19 12:25:15]  ================================================
+2439 DEBUG [2017-01-19 12:25:15]  ExecutionContext "org.datanucleus.ExecutionContextImpl@1fa268de" opened for datastore "org.datanucleus.store.rdbms.RDBMSStoreManager@460d0a57" with txn="org.datanucleus.TransactionImpl@4f6ee6e4"
+2442 DEBUG [2017-01-19 12:25:15]  Level 1 Cache of type "soft" initialised
+2447 DEBUG [2017-01-19 12:25:15]  Transaction created [DataNucleus Transaction, ID=Xid=   , enlisted resources=[]]
+2447 DEBUG [2017-01-19 12:25:15]  Transaction begun for ExecutionContext org.datanucleus.ExecutionContextImpl@1fa268de (optimistic=true)
+2449 DEBUG [2017-01-19 12:25:15]  Making object persistent : "com.aring.bean.ImageInfo@2a798d51"
+2468 DEBUG [2017-01-19 12:25:15]  Object "com.aring.bean.ImageInfo@2a798d51" (id="com.aring.bean.ImageInfo:0") added to Level 1 cache (loadedFlags="[YYY]")
+2468 DEBUG [2017-01-19 12:25:15]  Object "com.aring.bean.ImageInfo@2a798d51" (id="0") enlisted in transactional cache
+2472 DEBUG [2017-01-19 12:25:15]  Object "com.aring.bean.ImageInfo@2a798d51" has been marked for persistence but its actual persistence to the datastore will be delayed due to use of optimistic transactions or "datanucleus.flush.mode" setting
+2475 DEBUG [2017-01-19 12:25:15]  Transaction committing for ExecutionContext org.datanucleus.ExecutionContextImpl@1fa268de
+2475 DEBUG [2017-01-19 12:25:15]  ExecutionContext.internalFlush() process started using ordered flush - 1 enlisted objects
+2478 DEBUG [2017-01-19 12:25:15]  Query Cache of type "org.datanucleus.query.compiler.SoftQueryCompilationCache" initialised
+2480 DEBUG [2017-01-19 12:25:15]  Query Cache of type "org.datanucleus.store.query.cache.SoftQueryDatastoreCompilationCache" initialised
+2483 DEBUG [2017-01-19 12:25:15]  Query Cache of type "org.datanucleus.store.query.cache.SoftQueryResultsCache" initialised
+2499 DEBUG [2017-01-19 12:25:15]  Managing Persistence of Class : com.aring.bean.ImageInfo [Table : `IMAGEINFO`, InheritanceStrategy : new-table]
+2500 DEBUG [2017-01-19 12:25:15]  Column "`IMAGEINFO`.`ID`" added to internal representation of table.
+2501 DEBUG [2017-01-19 12:25:15]  Field [com.aring.bean.ImageInfo.id] -> Column(s) [`IMAGEINFO`.`ID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2504 DEBUG [2017-01-19 12:25:15]  Table `IMAGEINFO` will manage the persistence of the fields for class com.aring.bean.ImageInfo (inheritance strategy="new-table") 
+2505 DEBUG [2017-01-19 12:25:15]  Column "`IMAGEINFO`.`MID`" added to internal representation of table.
+2506 DEBUG [2017-01-19 12:25:15]  Field [com.aring.bean.ImageInfo.mid] -> Column(s) [`IMAGEINFO`.`MID`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2508 DEBUG [2017-01-19 12:25:15]  Column "`IMAGEINFO`.`PATH`" added to internal representation of table.
+2510 DEBUG [2017-01-19 12:25:15]  Attempt to find JDBC driver 'typeInfo' for jdbc-type=VARCHAR but sql-type=VARCHAR is not found. Using default sql-type for this jdbc-type.
+2510 DEBUG [2017-01-19 12:25:15]  Field [com.aring.bean.ImageInfo.path] -> Column(s) [`IMAGEINFO`.`PATH`] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2510 DEBUG [2017-01-19 12:25:15]  Table/View `IMAGEINFO` has been initialised
+2528 DEBUG [2017-01-19 12:25:15]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@3b0090a4 [conn=null, commitOnRelease=true, closeOnRelease=true, closeOnTxnEnd=true]" opened with isolation level "serializable" and auto-commit=false
+2528 DEBUG [2017-01-19 12:25:15]  Schema Transaction started with connection "com.sun.proxy.$Proxy10@3cd3e762" with isolation "serializable"
+2534 DEBUG [2017-01-19 12:25:15]  Check of existence of `IMAGEINFO` returned no table
+2534 DEBUG [2017-01-19 12:25:15]  Creating table `IMAGEINFO`
+2535 DEBUG [2017-01-19 12:25:15]  CREATE TABLE `IMAGEINFO`
+(
+    `ID` INTEGER NOT NULL,
+    `MID` INTEGER NOT NULL,
+    `PATH` VARCHAR(255) BINARY NULL,
+    CONSTRAINT `IMAGEINFO_PK` PRIMARY KEY (`ID`)
+) ENGINE=INNODB
+2748 DEBUG [2017-01-19 12:25:15]  Execution Time = 213 ms
+2766 DEBUG [2017-01-19 12:25:16]  Loading column info for table(s) "IMAGEINFO" in Catalog "", Schema ""
+2907 DEBUG [2017-01-19 12:25:16]  Column info loaded for Catalog "", Schema "", 1 tables, time = 140 ms
+2907 DEBUG [2017-01-19 12:25:16]  Column info retrieved for table "IMAGEINFO" : 3 columns found
+2911 DEBUG [2017-01-19 12:25:16]  Schema Transaction committing with connection "com.sun.proxy.$Proxy10@3cd3e762"
+2916 DEBUG [2017-01-19 12:25:16]  Schema Transaction closing with connection "com.sun.proxy.$Proxy10@3cd3e762"
+2917 DEBUG [2017-01-19 12:25:16]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@3b0090a4 [conn=com.sun.proxy.$Proxy10@3cd3e762, commitOnRelease=true, closeOnRelease=true, closeOnTxnEnd=true]" is being committed.
+2922 DEBUG [2017-01-19 12:25:16]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@3b0090a4 [conn=com.sun.proxy.$Proxy10@3cd3e762, commitOnRelease=true, closeOnRelease=true, closeOnTxnEnd=true]" closed
+2931 DEBUG [2017-01-19 12:25:16]  Object "com.aring.bean.ImageInfo@2a798d51" being inserted into table "`IMAGEINFO`"
+3584 DEBUG [2017-01-19 12:25:16]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=null, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" opened with isolation level "read-committed" and auto-commit=false
+3586 DEBUG [2017-01-19 12:25:16]  Running enlist operation on resource: org.datanucleus.store.rdbms.ConnectionFactoryImpl$EmulatedXAResource@399c4be1, error code TMNOFLAGS and transaction: [DataNucleus Transaction, ID=Xid=   , enlisted resources=[]]
+3587 DEBUG [2017-01-19 12:25:16]  ManagedConnection(enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=com.sun.proxy.$Proxy10@5b94b04d, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" starting for transaction "Xid=   " with flags "0"
+3589 DEBUG [2017-01-19 12:25:16]  ManagedConnection added to the pool : "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=com.sun.proxy.$Proxy10@5b94b04d, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" for key="org.datanucleus.ExecutionContextImpl@1fa268de" in factory="ConnectionFactory:tx[org.datanucleus.store.rdbms.ConnectionFactoryImpl@7ee8290b]"
+3603 DEBUG [2017-01-19 12:25:16]  Using PreparedStatement "org.datanucleus.store.rdbms.ParamLoggingPreparedStatement@e4487af" for connection "com.sun.proxy.$Proxy10@5b94b04d"
+3604 DEBUG [2017-01-19 12:25:16]  The requested statement "INSERT INTO `IMAGEINFO` (`MID`,`PATH`,`ID`) VALUES (?,?,?)" has been made batchable
+3607 DEBUG [2017-01-19 12:25:16]  Batch has been added to statement "INSERT INTO `IMAGEINFO` (`MID`,`PATH`,`ID`) VALUES (?,?,?)" for processing (batch size = 1)
+3609 DEBUG [2017-01-19 12:25:16]  BATCH [INSERT INTO `IMAGEINFO` (`MID`,`PATH`,`ID`) VALUES (<1>,<'/file/test.jpg'>,<0>)]
+3633 DEBUG [2017-01-19 12:25:16]  Execution Time = 25 ms (number of rows = [1]) on PreparedStatement "org.datanucleus.store.rdbms.ParamLoggingPreparedStatement@e4487af"
+3634 DEBUG [2017-01-19 12:25:16]  ExecutionContext.internalFlush() process finished
+3635 DEBUG [2017-01-19 12:25:16]  Object "com.aring.bean.ImageInfo@2a798d51" (id="0") added to Level 2 cache (fields="[0, 1, 2]", version="")
+3638 DEBUG [2017-01-19 12:25:16]  Committing [DataNucleus Transaction, ID=Xid=   , enlisted resources=[org.datanucleus.store.rdbms.ConnectionFactoryImpl$EmulatedXAResource@399c4be1]]
+3638 DEBUG [2017-01-19 12:25:16]  ManagedConnection(enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=com.sun.proxy.$Proxy10@5b94b04d, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" committing for transaction "Xid=   " with onePhase="true"
+3676 DEBUG [2017-01-19 12:25:16]  ManagedConnection(non-enlisted) "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=com.sun.proxy.$Proxy10@5b94b04d, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" closed
+3677 DEBUG [2017-01-19 12:25:16]  ManagedConnection removed from the pool : "org.datanucleus.store.rdbms.ConnectionFactoryImpl$ManagedConnectionImpl@75db5df9 [conn=com.sun.proxy.$Proxy10@5b94b04d, commitOnRelease=false, closeOnRelease=false, closeOnTxnEnd=true]" for key="org.datanucleus.ExecutionContextImpl@1fa268de" in factory="ConnectionFactory:tx[org.datanucleus.store.rdbms.ConnectionFactoryImpl@7ee8290b]"
+3679 DEBUG [2017-01-19 12:25:16]  Object "com.aring.bean.ImageInfo@2a798d51" (id="com.aring.bean.ImageInfo:0") has a lifecycle change : "P_NEW"->"P_NONTRANS"
+3680 DEBUG [2017-01-19 12:25:16]  Object "com.aring.bean.ImageInfo@2a798d51" (id="com.aring.bean.ImageInfo:0") was evicted from transactional cache
+3680 DEBUG [2017-01-19 12:25:16]  Transaction committed in 1208 ms
+3680 DEBUG [2017-01-19 12:25:16]  DetachOnClose : Closing manager so detaching all current objects ...
+3681 DEBUG [2017-01-19 12:25:16]  Detaching object from persistence : "com.aring.bean.ImageInfo@2a798d51" (depth=0)
+3684 DEBUG [2017-01-19 12:25:16]  Object "com.aring.bean.ImageInfo@2a798d51" (id="com.aring.bean.ImageInfo:0") has a lifecycle change : "P_NONTRANS"->"DETACHED_CLEAN"
+3684 DEBUG [2017-01-19 12:25:16]  Disconnecting com.aring.bean.ImageInfo@2a798d51 from StateManager[pc=com.aring.bean.ImageInfo@2a798d51, lifecycle=DETACHED_CLEAN]
+3685 DEBUG [2017-01-19 12:25:16]  Object with id="com.aring.bean.ImageInfo:0" being removed from Level 1 cache [current cache size = 1]
+3685 DEBUG [2017-01-19 12:25:16]  DetachOnClose : completed detach
+3686 DEBUG [2017-01-19 12:25:16]  ExecutionContext "org.datanucleus.ExecutionContextImpl@1fa268de" closed
