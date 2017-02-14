@@ -20,6 +20,10 @@
             <property name="javax.persistence.jdbc.user" value="movie" />
             <property name="javax.persistence.jdbc.password" value="movie"/>
             <property name="datanucleus.connectionPoolingType" value="tomcat"/>
+            <property name="datanucleus.connectionPool.maxPoolSize" value="5"/>
+            <property name="datanucleus.connectionPool.maxIdle" value="10"/>
+            <property name="datanucleus.connectionPool.leakThreshold" value="1"/>
+            <property name="datanucleus.connectionPool.maxLifetime" value="240"/>
             <property name="datanucleus.schema.autoCreateAll" value="true"/>
         </properties> 
     </persistence-unit>
